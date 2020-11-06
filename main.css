@@ -1,0 +1,176 @@
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(238, 195, 56);
+}
+
+.bg-img
+{
+    background-image: url(../image/landscape-nature-background-image.jpg);
+    width: 100%;
+    height: 610px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-family: sans-serif; 
+}
+.blur{
+    clear: both;
+    margin: 0 0 0 15%;
+    text-align: center;
+    width: 70%;
+    border: 2px solid darkgreen;
+    border-radius: 50px;
+    background-color: rgba(100, 50,20, 0.8);
+    padding: 15px;
+}
+
+.text{
+    font-size: 4.375em;
+}
+@media screen and (min-width: 601px) {
+  .text {
+    font-size: 4.375em;
+  }
+}
+@media screen and (max-width: 601px) {
+  .text {
+    font-size: 25px;
+  }
+}
+.text1{
+font-size: 1.5em;
+}
+@media screen and (min-width: 601px) {
+  .text1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 601px) {
+  .text1 {
+    font-size: 15px;
+  }
+}
+.text2{
+    font-size: 1em;
+    }
+    @media screen and (min-width: 601px) {
+      .text2 {
+        font-size: 1em;
+      }
+    }
+    @media screen and (max-width: 601px) {
+      .text2 {
+        font-size: .8em;
+      }
+    }
+    .colstr{
+    padding: 2px;
+    font-size: 20px;
+}
+ @media screen and (min-width: 601px) {
+    .colstr {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 601px) {
+    .colstr {
+      font-size: .5em;
+} 
+}
+
+.profile h1
+{
+    text-align: center;
+    font-size: 50px;
+    color: darkslategray;
+    font-family: 'Times New Roman', Times, serif;
+}.profile p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+.bold{
+font-weight: bold;
+}
+.textclr{
+    color: darkslategray;
+}
+.center{
+    text-align: center;
+}
+.leftalign{
+    text-align: left;
+}
+.fa{
+    padding: 2px;
+    color: darkslategray;
+}
+.col{
+    padding: 2px;
+    font-size: 20px;
+}
+ @media screen and (min-width: 601px) {
+    .col {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 601px) {
+    .col {
+      font-size: .6em;
+    }
+  }
+ 
+div.hover:hover{
+    background-color: rgb(180, 175, 175);
+}
+i.fa {
+    transition: all 0.5s;   
+}
+i.fa:hover{    
+    margin: 5px;
+}
+.border{
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 15px;
+    position: relative;
+    z-index: -1;
+}
+
+.trees{
+    border-bottom: 2px solid darkslategray; 
+    text-align: center; 
+    padding-bottom: 20px;
+}
+.project{
+    font-weight: bold;
+}
+.width{
+    width: 50% !important;
+}
+.fontsize{
+    font-size: 25px !important;
+}
+.imgmarg{
+    margin-bottom: 30px;
+}
